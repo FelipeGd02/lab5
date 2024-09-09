@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header {
+    background-color: #6a00b1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img {
+    height: 40px;
+}
+.header input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.header .right-section {
+    display: flex;
+    align-items: center;
+}
+.header .right-section a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sidebar p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.sidebar .filter {
+    margin-bottom: 20px;
+}
+.sidebar .filter label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.sidebar .filter input[type="checkbox"] {
+    margin-right: 10px;
+}
+.main-content {
+    flex: 1;
+    margin-left: 20px;
+}
+.main-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.main-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.main-content .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main-content .car-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+}
+.main-content .car-item img {
+    width: 100%;
+    height: auto;
+}
+.main-content .car-item .details {
+    padding: 10px;
+}
+.main-content .car-item .details h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.main-content .car-item .details p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+.main-content .car-item .details .price {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+}

@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.header {
+  background-color: #6a00b1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header img {
+  height: 50px;
+}
+.header .search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+.header .search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.header .user-options {
+  display: flex;
+  align-items: center;
+}
+.header .user-options a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.header .user-options a i {
+  margin-right: 5px;
+}
+.main-banner {
+  background: url('corvette-9007354_1280.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 100px 50px;
+  text-align: center;
+  color: white;
+}
+.main-banner h1 {
+  font-size: 36px;
+  margin: 0;
+}
+.main-banner p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.content .card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 18%;
+}
+.content .card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.content .card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.content .card p {
+  font-size: 16px;
+  color: #666;
+}
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
